@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="content">
+                <div class="content__header">
+                    <h2 class="title">Відслідковуй свій прогрес на тренуваннях</h2>
+                    <p class="description">GymSchedule тобі в цьому допоможе!</p>
+                </div>
+                <a href="#" class="button openModalBtn" data-modal="modal1">Зареєструватись</a>
+            </div>
+            <img src="img/gym.png" alt="">
+        </div>
+
+        <div id="modal1" class="modal">
+            <div class="modal-style">
+                <div class="modal-content">
+                    <span class="close-btn">Х</span>
+                    <form action="" class="">
+                        <div>
+                            <p>Введіть ім'я:</p>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <p>Введіть почту:</p>
+                            <input type="email">    
+                        </div>
+                        <div>
+                            <p>Введіть пароль:</p>
+                            <input type="password">
+                        </div>
+                        <input type="submit" class="button">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordions">
+            <div class="accordion">
+                <div class="accordion__header">
+                    <h5>Чи є історія моїх прогресів?</h5>
+                    <img src="img/icons/icon.svg" alt="" class="icon"> 
+                </div>
+                <p class="accordion__content">Нажаль, але історія Ваших тренувань поки не зберігається. Але ми працюємо над цим.</p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion__header">
+                    <h5>Скільки вправ я можу додати?</h5>
+                    <img src="img/icons/icon.svg" alt="" class="icon"> 
+                </div>
+                <p class="accordion__content">Ви можете додати безліч вправ у якусь обрану Вами групу м’язів</p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion__header">
+                    <h5>Чи є у вас відгуки?</h5>
+                    <img src="img/icons/icon.svg" alt="" class="icon"> 
+                </div>
+                <p class="accordion__content">Так, у нас є відгуки і ви можете там залишити свій відгук</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
